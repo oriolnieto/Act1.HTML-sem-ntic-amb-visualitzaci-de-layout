@@ -1,0 +1,26 @@
+
+.header, .footer {
+    border: 2px dashed #e53e3e;
+    min-height: 60px;
+}
+
+.login-sidebar {
+    border: 2px dashed #e53e3e;
+    min-height: 400px;
+}
+
+.login-container {
+    border: 2px dashed #e53e3e;
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.login-box {
+    border: 2px dashed #e53e3e;
+    width: 80%;
+    max-width: 400px;
+    min-height: 300px;
+}
