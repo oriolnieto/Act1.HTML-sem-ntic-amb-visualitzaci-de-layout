@@ -44,8 +44,10 @@ body {
   gap: 10px;
 }
 
-.flex-1 { flex: 1; }
-.flex-2 { flex: 2; }
+.flex-1 { flex: 1;
+}
+.flex-2 { flex: 2;
+}
 
 header, footer { min-height: 50px;
 }
