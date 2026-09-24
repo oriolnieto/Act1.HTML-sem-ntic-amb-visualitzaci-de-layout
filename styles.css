@@ -9,34 +9,52 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  padding: 12px;
+  gap: 10px;
+  padding: 10px;
   background-color: #f9fafb;
 }
 
-.border-blue { border: 2px dashed #4a90e2; }
-.border-red { border: 2px dashed #e74c3c; }
-.border-green { border: 2px dashed #2ecc71; }
-.border-purple { border: 2px dashed #9b59b6; }
-.border-pink { border: 2px dashed #e84393; }
-.border-orange { border: 2px dashed #e67e22; }
+.border-blue { border: 2px dashed #4a90e2;
+}
+
+.border-red { border: 2px dashed #e74d3c;
+}
+
+.border-green { border: 2px dashed #00ff6a;
+}
+
+.border-purple { border: 2px dashed #9b59b6;
+}
+
+.border-pink { border: 2px dashed #e84393;
+}
+
+.border-orange { border: 2px dashed #ff7700;
+}
 
 .flex-row {
   display: flex;
   flex-direction: row;
-  gap: 12px;
+  gap: 10px;
 }
 
 .flex-col {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 }
 
 .flex-1 { flex: 1; }
 .flex-2 { flex: 2; }
 
-header, footer { min-height: 60px; }
-main { min-height: 400px; }
-aside { min-height: 300px; }
-section, article, form { min-height: 100px; }
+header, footer { min-height: 50px;
+}
+
+main { min-height: 400px;
+}
+
+aside { min-height: 400px;
+}
+
+section, article, form { min-height: 100px;
+}
